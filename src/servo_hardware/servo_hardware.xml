@@ -1,0 +1,5 @@
+<library path="servo_hardware">
+  <class type="servo_hardware::ServoHardware" base_class_type="hardware_interface::SystemInterface">
+    <description>Servo hardware driver via Bluetooth serial</description>
+  </class>
+</library>

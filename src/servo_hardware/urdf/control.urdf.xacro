@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot  xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <ros2_control name="servo_hardware" type="system">
+        <hardware>
+            <plugin>servo_hardware::ServoHardware</plugin>
+        </hardware>
+        <joint name="pan_joint">
+            <command_interface name="position"/>
+            <state_interface name="position"/>
+        </joint>
+        <joint name="tilt_joint" type="revolute">
+            <command_interface name="position"/>
+            <state_interface name="position"/>
+        </joint>
+    </ros2_control>      
+</robot>

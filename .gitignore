@@ -1,0 +1,20 @@
+# --- ROS2 colcon 工作空间产生的目录 ---
+build/
+install/
+log/
+.colcon*
+.ros/
+
+# --- 编辑器缓存文件 ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Python 缓存文件 ---
+__pycache__/
+*.py[cod]
+
+# --- 系统文件和备份文件 ---
+.DS_Store
+*.swp
+*.swo
